@@ -58,7 +58,6 @@ html,body{
     border-radius: 5px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
 #navi {
     position: absolute;
     top: 0;
@@ -360,7 +359,14 @@ canvas {
         transform: translateY(0);
     }
 }
-
+@media(max-width:1300px)
+{
+    nav ul li{
+        background-color: #333;
+        box-shadow: none;
+        
+    }
+}
 @media (max-width: 768px) {
     main {
         width: 90%;
